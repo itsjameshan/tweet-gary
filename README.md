@@ -1,3 +1,3 @@
-# A visualization of tweets related to gary
+# Tweets related to gary on a map
 Visualization tweets about GaryVee
 
