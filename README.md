@@ -5,7 +5,7 @@ As one of the most influence social media icon, gary has influence thousnds of m
 
 This repository shows you how to use tweepy to scrape gary related tweets and vaisulize them on a interactive map by leaflet and D3.js, DC.js, and Python.
 
-This tutorial will use Pandas to cleaning data, tweepy library scrape tweets through twitter api, Flask to build the server , Javascript libraries d3.js, dc.js to buid the charts and Leaflet.js for building the map.
+This tutorial will use Pandas to cleaning data, tweepy library scrape tweets through twitter api, Flask to build the server , Javascript libraries d3.js, dc.js and crossfilter.js to buid the charts and Leaflet.js for building the map.
 
 ## Get Started
 
