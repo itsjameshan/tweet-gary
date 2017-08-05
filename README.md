@@ -31,12 +31,13 @@ pip install -r requirements.txt
   * Access Token
   * Access Token Secret
 
-* Set the following key in private.py.
+* Set the following key in private.py .
   
 ```python
 CONNECTION_STRING = "postgresql://your_own_username:your_own_password@localhost:5432/your_db_name" 
 ```
 as a default. It's recommended to use postgresql.
+* Install [postgresql](https://www.postgresql.org/download/) in your computer. Create a user (your_own_username) or use default postgresql db user name. Create an passord (your_own_password). And create a table name (your_db_name).
 
 ```python
 until finished!
