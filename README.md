@@ -11,20 +11,17 @@ This tutorial scrape tweets and save them into a postgresql. Then users tweets a
 * Leaflet.js for building the map
 
 ## Get Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+You can git clone or download this repository to your local and test the app.
+
+### Installation
+Install the requirements.txt file first.This file included the packge for runing the app. I suggested to use python 2.7. If you use > python 3.x, the Shapely package may not compatiable. 
+
+#### Python
+```python
+pip install -r requirements.txt
+```
 
 ### Prerequisites
-What things you need to install the software and how to install them
-
-```python
-Give an example
-```
-And repeat
-
-```python
-until finished!
-```
-### Installation
 
 A step by step series of examples that tell you have to get a development env running
 
