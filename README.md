@@ -9,7 +9,11 @@ This repository shows you how to use tweepy to scrape gary related tweets and ha
 * Leaflet.js for building the map
 
 ## Get Started
-You can git clone or download this repository to your local and test the app.
+You can 
+```python
+git clone https://github.com/itsjameshan/tweet-gary.git
+```
+or download this repository to your local and test the app.
 
 ### Installation
 Install the requirements.txt file first.This file included the packge for runing the app. I suggested to use python 2.7. If you use > python 3.x, the Shapely package may not compatiable. 
