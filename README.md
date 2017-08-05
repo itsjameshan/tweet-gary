@@ -1,7 +1,7 @@
 # Scraper tweets related to GaryVee and visualize on an interactive map
 This repository visualizes shows you how to use tweepy to scrape gary related tweets and hashtag and vaisulize them on a interactive map.
 
-As one of the most influence social media icon, gary has influence thousnds of median and small bussinesses acrooss United State by spreading the messages of hustle, care, positivity, Jet's, and impacting people's lives and moitivating entrepreneur  keep going. 
+As one of the most influence social media icon, Gary Vaynerchuk has influence thousnds of entrepreneurs and medium, small bussinesses across United State by spreading the messages of hustle, care, positivity, Jets. His work ethic moitivates hourdreds and thousands entrepreneurs to keep hard on their business and make an impact on others. 
 
 This tutorial scrape tweets and save them into a postgresql. Then users tweets and location are showed on an map by reading data from the DB. This turitial used 
 * Pandas to cleaning data 
@@ -21,11 +21,9 @@ Install the requirements.txt file first.This file included the packge for runing
 pip install -r requirements.txt
 ```
 
-### Prerequisites
+### Twitter API
 
-A step by step series of examples that tell you have to get a development env running
 
-Say what the step will be
 
 ```python
 Give an example
@@ -47,6 +45,7 @@ Explain what these tests test and why
 ```python
 Give an example
 ```
+
 
 ### And unit tests
 
