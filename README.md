@@ -19,8 +19,16 @@ Install the requirements.txt file first.This file included the packge for runing
 pip install -r requirements.txt
 ```
 
-### Twitter API
+#### Twitter API
+* Create a file named private.py for store your twitter app keys later.
+* Register a [twitter developer account](https://dev.twitter.com/)
+* Create an [twitter app](https://apps.twitter.com/) in the twitter developer account page after login by using your twitter account.
+* Set the following keys in private.py. The keys can be found under *Keys and Access token tab* of your [twitter app](https://apps.twitter.com/) page:
 
+  * Consumer Key
+  * Consumer Secret
+  * Access Token
+  * Access Token Secret
 
 
 ```python
@@ -60,5 +68,8 @@ Give an example
 Add additional notes about how to deploy this on a live system
 
 
-
+## Reference
+This project is inspiared by:
+https://github.com/dataquestio/twitter-scrape
+https://github.com/adilmoujahid/kaggle-talkingdata-visualization/blob/master/README.md
 
