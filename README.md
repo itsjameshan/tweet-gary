@@ -5,7 +5,7 @@ This repository shows you how to use tweepy to scrape gary related tweets and ha
 * `Pandas` to cleaning data 
 * `Tweepy` library scrape tweets through twitter api
 * `Flask` to build the server 
-* `d3.js`, `dc.js` and `crossfilter.js` to buid the charts and 
+* `d3.js`,`dc.js` and `crossfilter.js` to buid the charts and 
 * `Leaflet.js` for building the map
 
 ## Get Started
