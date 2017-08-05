@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 * Set the following key in private.py.
 
-  * CONNECTION_STRING = "postgresql://username:password@localhost:5432/yourdbname" as a default. It's recommended to use postgresql. The username, password, and yourdbname are your own postgresql username, password and dasebase name, respectively.
+  * CONNECTION_STRING = "postgresql://your_own_username:your_own_password@localhost:5432/your_db_name" as a default. It's recommended to use postgresql.
   
 ```python
 Give an example
