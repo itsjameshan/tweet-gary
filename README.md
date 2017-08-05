@@ -15,6 +15,7 @@ You can git clone or download this repository to your local and test the app.
 Install the requirements.txt file first.This file included the packge for runing the app. I suggested to use python 2.7. If you use > python 3.x, the Shapely package may not compatiable. 
 
 #### Python
+Install pandas, tweepy, Shapely and other python packages.
 ```python
 pip install -r requirements.txt
 ```
@@ -30,7 +31,10 @@ pip install -r requirements.txt
   * Access Token
   * Access Token Secret
 
+* Set the following key in private.py.
 
+  * CONNECTION_STRING = "postgresql://username:password@localhost:5432/yourdbname" as a default. It's recommended to use postgresql. The username, password, and yourdbname are your own postgresql username, password and dasebase name, respectively.
+  
 ```python
 Give an example
 ```
