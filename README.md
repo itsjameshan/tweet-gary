@@ -28,14 +28,14 @@ pip install -r requirements.txt
 * Create a file named private.py for store your twitter app keys later.
 * Register a [twitter developer account](https://dev.twitter.com/)
 * Create an [twitter app](https://apps.twitter.com/) in the twitter developer account page after login by using your twitter account.
-* Set the following keys in private.py. The keys can be found under *Keys and Access token tab* of your [twitter app](https://apps.twitter.com/) page:
+* Set the following keys in `private.py`. The keys can be found under *Keys and Access token tab* of your [twitter app](https://apps.twitter.com/) page:
 
   * `Consumer_Key`
-  * Consumer_Secret
-  * Access_Token
-  * Access_Token_Secret
+  * `Consumer_Secret`
+  * `Access_Token`
+  * `Access_Token_Secret`
 
-* Set the following key in private.py .
+* Set the following key in `private.py` .
   
 ```python
 CONNECTION_STRING = "postgresql://your_own_username:your_own_password@localhost:5432/your_db_name" 
