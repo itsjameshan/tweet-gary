@@ -30,7 +30,7 @@ pip install -r requirements.txt
 * Create an [twitter app](https://apps.twitter.com/) in the twitter developer account page after login by using your twitter account.
 * Set the following keys in private.py. The keys can be found under *Keys and Access token tab* of your [twitter app](https://apps.twitter.com/) page:
 
-  * Consumer_Key
+  * `Consumer_Key`
   * Consumer_Secret
   * Access_Token
   * Access_Token_Secret
