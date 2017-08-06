@@ -1,4 +1,5 @@
 # Twitter search API + pandas interactive dashboard for GaryVee related tweets
+
 As one of the most influence social media icon, Gary Vaynerchuk has influenced hundreds thousnds of people, entrepreneurs, and bussinesses across United State by spreading the messages of hustle, care, positivity, Jets. I happended to be one of them. His work ethic moitivates hourdreds and thousands entrepreneurs to keep hard on their business and make an impact on others. 
 
 This repository shows you how to use tweepy to scrape gary related tweets and hashtag thourgh twitter API and vaisulize them on a interactive map. It scrapes tweets and save them into a postgresql. Then users tweets are showed on a map by reading data from the DB. This turitial used 
@@ -43,9 +44,16 @@ CONNECTION_STRING = "postgresql://your_own_username:your_own_password@localhost:
 as a default. It's recommended to use postgresql.
 * Install [postgresql](https://www.postgresql.org/download/) in your computer. Create a user (your_own_username) or use default postgresql db user name. Create an passord (your_own_password). And create a table name (your_db_name).
 
+* Edit one line of code in app.py. Replace the your_own_username, your_own_password, and your_db_name with your own.
 ```python
-until finished!
+engine = create_engine('postgresql://your_own_username:your_own_password@localhost:5432/your_db_name')
 ```
+
+#### Pandas interactive dashboard
+
+
+
+
 
 ## Running the tests
 
