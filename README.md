@@ -5,7 +5,7 @@ As one of the most influence social media icon, Gary Vaynerchuk has influenced h
 This repository shows you how to use tweepy to scrape gary related tweets or hashtag through twitter API and vaisulize them on a interactive map. It scrapes tweets and save them into a postgresql. Then users tweets are showed on a map by reading data from the DB. This turitial used 
 * `Pandas` to cleaning data 
 * `Tweepy` library scrape tweets through twitter api
-* `Flask` to build the server 
+* `Flask` framework to build the server 
 * `d3.js`,`dc.js` and `crossfilter.js` to buid the charts and 
 * `Leaflet.js` for building the map
 
@@ -36,7 +36,7 @@ pip install -r requirements.txt
   * `Access_Token`
   * `Access_Token_Secret`
 
-* Set the following key in `private.py` .
+* Set the following key in `private.py`
   
 ```python
 CONNECTION_STRING = "postgresql://your_own_username:your_own_password@localhost:5432/your_db_name" 
@@ -50,15 +50,15 @@ engine = create_engine('postgresql://your_own_username:your_own_password@localho
 ```
 * If you want to change the search key words, replace the keywords in the first line of `setting.py`.
 
-
 #### Pandas interactive dashboard
+
 
 Run the `app.py` script. The app will load data from the postgresql DB, and show 
 * Number of tweets in a period of time, 
 * The users followers numbers, 
 * What does the user tweeted about when used garyvee hashtag, 
-* which states the tweets came from if the user's location is set on,and
-* The user approximate location on an map if the user's location is set on. 
+* which states the tweets came from if the user's location is set on, and
+* User approximate location on an map if the user's location is set on. 
 
 
 
