@@ -54,11 +54,11 @@ engine = create_engine('postgresql://your_own_username:your_own_password@localho
 
 
 Run the `app.py` script. The app will load data from the postgresql DB, and show 
-* Number of tweets in a period of time, 
-* The users followers numbers, 
-* What does the user tweeted about when used garyvee hashtag, 
-* which states the tweets came from if the user's location is set on, and
-* User approximate location on an map if the user's location is set on. 
+* **Number of tweets** in a period of time, 
+* The users **followers numbers**, 
+* **Tweets content** when used garyvee hashtag, 
+* which **states** the tweets came from if the user's location is set on, and
+* User **nearby location** on an map if the user's location is set on. 
 
 
 
