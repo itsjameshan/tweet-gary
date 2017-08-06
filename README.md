@@ -53,7 +53,7 @@ engine = create_engine('postgresql://your_own_username:your_own_password@localho
 #### Pandas interactive dashboard
 
 
-Run the `app.py` script. The app will load data from the postgresql DB, and show 
+Run the `app.py` script. The app will load data from the postgresql, and show 
 * **Number of tweets** in a period of time, 
 * The users **followers numbers**, 
 * **Tweets content** when used garyvee hashtag, 
