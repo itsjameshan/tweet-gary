@@ -62,35 +62,6 @@ Run the `app.py` script from the repository root folder. Copy and paste `http://
 * User **nearby location** on an map if the user's location is set on. 
 
 
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```python
-Give an example
-```
-
-
-### And unit tests
-
-
-Explain what these tests test and why
-
-```python
-Give an example
-```
-
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-
 ## Reference
 This project is inspiared by:
 
