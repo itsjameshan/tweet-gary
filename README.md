@@ -11,7 +11,7 @@ This repository shows you how to use tweepy to scrape gary related tweets or has
 * `Leaflet.js` for building the map
 
 ## Get Started
-You can 
+
 ```python
 git clone https://github.com/itsjameshan/tweet-gary.git
 ```
