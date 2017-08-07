@@ -54,13 +54,13 @@ engine = create_engine('postgresql://your_own_username:your_own_password@localho
 #### Pandas interactive dashboard
 
 
-Run the `app.py` script from repository root folder. Copy and paste `http://0.0.0.0:5002/` to your browser. The browser will show the map and charts in a few seconds after loading data from the postgresql, and show 
+Run the `app.py` script from the repository root folder. Copy and paste `http://0.0.0.0:5002/` to your browser. The browser will show the map and charts in 7 seconds after loading data from the postgresql, and show 
 * **Number of tweets** in a period of time, 
 * The users **followers numbers**, 
 * **Tweets content** when used garyvee hashtag, 
 * which **states** the tweets came from if the user's location is set on, and
 * User **nearby location** on an map if the user's location is set on. 
-It may take 7 seconds or so to show the charts and map.
+
 
 
 ## Running the tests
