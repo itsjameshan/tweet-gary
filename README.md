@@ -50,7 +50,7 @@ as a default. It's recommended to use postgresql.
 engine = create_engine('postgresql://your_own_username:your_own_password@localhost:5432/your_db_name')
 ```
 * If you want to change the search key words, replace the keywords in the first line of `setting.py`.
-* Run `scraper.py`. It will create a talbe named gary in your new database.
+* Run `scraper.py`. It will create a talbe named gary in the new database.
 
 #### Pandas interactive dashboard
 
