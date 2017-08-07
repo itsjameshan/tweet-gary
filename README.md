@@ -43,18 +43,19 @@ pip install -r requirements.txt
 CONNECTION_STRING = "postgresql://your_own_username:your_own_password@localhost:5432/your_db_name" 
 ```
 as a default. It's recommended to use postgresql.
-* Install [postgresql](https://www.postgresql.org/download/) in your computer. Create a user (your_own_username) or use default postgresql db user name. Create an passord (your_own_password). And create a table name database(your_db_name). 
+* Install [postgresql](https://www.postgresql.org/download/) in your computer. Create a user (your_own_username) or use default postgresql db user name. Create an passord (your_own_password). And create a new databse(your_db_name). 
 
 * Edit one line of code in `app.py`. Replace the your_own_username, your_own_password, and your_db_name with your own.
 ```python
 engine = create_engine('postgresql://your_own_username:your_own_password@localhost:5432/your_db_name')
 ```
 * If you want to change the search key words, replace the keywords in the first line of `setting.py`.
+* Run `scraper.py`. It will create a talbe named gary in your new database.
 
 #### Pandas interactive dashboard
 
 
-Run the `app.py` script from the repository root folder. Copy and paste `http://0.0.0.0:5002/` to your browser. The browser will show the map and charts in 7 seconds after loading data from the postgresql, and show 
+Run the `app.py` script from the repository root folder. Copy-paste `http://0.0.0.0:5002/` to your browser. The browser will show the map and charts in 7 seconds after loading data from the postgresql, and show 
 * **Number of tweets** in a period of time, 
 * The users **followers numbers**, 
 * **Tweets content** when used garyvee hashtag, 
