@@ -60,7 +60,7 @@ Run the `app.py` script from repository root folder. Copy and paste `http://0.0.
 * **Tweets content** when used garyvee hashtag, 
 * which **states** the tweets came from if the user's location is set on, and
 * User **nearby location** on an map if the user's location is set on. 
-
+It may take 7 seconds or so to show the charts and map.
 
 
 ## Running the tests
