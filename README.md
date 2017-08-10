@@ -25,6 +25,7 @@ Install `pandas`, `tweepy`, `Shapely` and other python packages.
 ```python
 pip install -r requirements.txt
 ```
+If you get en erro on `OSError: Could not find or load any library geos_c icts of variants ['libgeos_c.so.1', 'libgeos_c.so']`, use `pip uninstall Shapely` to unstall Shapely, and then use `conda install Shapely` to install Shapely. But You need to install [conda](https://conda.io/docs/install/quick.html) first.
 
 #### Twitter API
 * Create a file named private.py for store your twitter app keys later.
