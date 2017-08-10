@@ -9,7 +9,7 @@ psycopg2
 textblob
 Pandas
 Flask
-Shapely
+Shapely==1.5.16
 folium
 pygeocoder
 geopy
