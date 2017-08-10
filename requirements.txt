@@ -10,3 +10,7 @@ textblob
 Pandas
 Flask
 Shapely
+folium
+pygeocoder
+geopy
+geocoder
