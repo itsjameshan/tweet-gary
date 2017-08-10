@@ -24,6 +24,7 @@ def index():
 
 @app.route("/data")
 def get_data():
+    import json
     engine = create_engine('postgresql://dbuser:cc0901-!@localhost:5432/gary_test')
     df = pd.read_sql_query('select * from gary', con=engine)
     data_path = './input/'
