@@ -1,3 +1,5 @@
+# login https://apps.twitter.com/ to create one. It will only take 2 minutes.
+
 Consumer_Key = ""
 Consumer_Secret = ""
 Access_Token = ""
