@@ -3,7 +3,7 @@
 ![alt text](./demo3.gif)
 As one of the most influence social media icon, Gary Vaynerchuk has influenced hundreds thousnds of people, entrepreneurs, and bussinesses across United State by spreading the messages of hustle, care, positivity, Jets. I happended to be one of them. His work ethic moitivates hourdreds and thousands entrepreneurs to work hard on their business and make an impact on others. 
 
-This repository shows you how to use tweepy to scrape gary related tweets or hashtag through twitter API and vaisulize them on a interactive map. It scrapes tweets and save them into a postgresql. Then users tweets are showed on a map by reading data from the DB. This turitial used 
+This repository shows you how to use tweepy to scrape gary related tweets or hashtag through twitter API and visualize them on a interactive map. It scrapes tweets and save them into a postgresql DB. Then users tweets are showed on a map by reading data from the DB. This turitial used 
 * `Pandas` to cleaning data 
 * `Tweepy` library scrape tweets through twitter api
 * `Flask` framework to build the server 
