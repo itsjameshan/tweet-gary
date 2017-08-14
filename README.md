@@ -50,7 +50,7 @@ If you get en erro on `OSError: Could not find or load any library geos_c icts o
   * `Access_Token_Secret = ""`
 
 * Install [postgresql](https://www.postgresql.org/download/) on your computer. Create a user (your_own_username) or use default postgresql db user name. Create an password (your_own_password)(suggest to use the Mac password if you run on a Mac). And create a new database(your_db_name). You can download a [pgAdmin](https://www.pgadmin.org/download/) to make the operation easier.
-* Replace `your_own_username`,`your_own_password`,`your_db_name` with your own respectively. in `private.py`.
+* Replace `your_own_username`,`your_own_password`,`your_db_name` with your own respectively in `private.py`.
   
   * user_name = "your_own_username"
   * password = "your_own_password"
