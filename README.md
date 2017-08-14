@@ -14,7 +14,7 @@ This repository shows you how to use tweepy to scrape gary related tweets or has
 
 First, cd to a path in terminal where you want to put the repository. Then
 ```python
-$ git clone https://github.com/itsjameshan/tweet-gary.git
+git clone https://github.com/itsjameshan/tweet-gary.git
 ```
 or download this repository to your local folder.
 
@@ -24,16 +24,16 @@ Install the requirements.txt file first.This file included the packge for runing
 #### Python
 cd into the folder you cloned or downloaded and create an virtual enviroment by
 ```python
-$ pip install virtualenv
-$ virtualenv py27
+pip install virtualenv
+virtualenv py27
 ```
 Activate the enviroment
 ```python
-$ source py27/bin/activate
+source py27/bin/activate
 ```
 Install `pandas`, `tweepy`, `Shapely` and other python packages.
 ```python
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 If you get en erro on `OSError: Could not find or load any library geos_c icts of variants ['libgeos_c.so.1', 'libgeos_c.so']`, use `pip uninstall Shapely` to unstall Shapely, and then use `conda install Shapely` to install Shapely. But You need to install [conda](https://conda.io/docs/install/quick.html) first.
 
