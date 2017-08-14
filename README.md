@@ -70,10 +70,10 @@ Run the `app.py` script from the repository root folder. Copy and paste **`http:
 * which **states** the tweets came from if the user's location is set on, and
 * User **nearby location** on an map if the user's location is set "on". 
 
-The number of tweeets in timestamp charts will show once tweets collected from more than one hour. The `app.py` script will load less than 10 tweets if any tweets has been collected at the monent of starting the script. Otherwise, the script will load an example file data.json to show gary related tweets collected previously. If the graph and chart does't show, done't forget clear cache of your browser. 
+The number of tweeets in timestamp charts will show once tweets collected from more than one hour. The `app.py` script will load less than 10 tweets if any tweets has been collected at the monent of starting the script. Otherwise, the script will load an example file data.json to show gary related tweets collected previously. If you tereminate `app.py` by `Ctrl + C` and re-run `app.py`, done't forget clear cache of your browser before re-run. 
 
 ## Reference
-This project is inspiared by:
+This project is inspired by:
 
 https://github.com/dataquestio/twitter-scrape
 
