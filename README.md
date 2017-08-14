@@ -45,8 +45,8 @@ If you get en erro on `OSError: Could not find or load any library geos_c icts o
 CONNECTION_STRING = "postgresql://your_own_username:your_own_password@localhost:5432/your_db_name" 
 ```
 
-* Replace `your_own_username`,`your_own_password`,`your_db_name` in the code below with your newly created database user name, password, database name, respectively. 
-* Edit one line of code in `app.py`. Replace the your_own_username, your_own_password, and your_db_name with your own.
+* Replace `your_own_username`,`your_own_password`,`your_db_name` with your newly created database user name, password, database name, respectively. 
+* Edit one line of code in `app.py`. Replace your_own_username, your_own_password, and your_db_name with your own.
 ```python
 engine = create_engine('postgresql://your_own_username:your_own_password@localhost:5432/your_db_name')
 ```
