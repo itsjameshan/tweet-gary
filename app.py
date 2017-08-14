@@ -52,7 +52,6 @@ def get_data():
         return df
     engine = create_engine('postgresql://postgres:' + private.password + '@localhost:5432/postgres')
     # check database exist
-    # dbname = 'gary_test'
     dbname = private.DB_NAME
     table = settings.TABLE_NAME
     df = pd.read_sql_query("select * from pg_database where datname='" + dbname + "'", con=engine)
@@ -65,7 +64,6 @@ def get_data():
             return get_local_data()
         else:
             # check table exists
-            #df = pd.read_sql_query('select * from gary limit 10', con=engine)
             df = pd.read_sql_query('select * from ' + table + ' limit 10', con=engine)
             if df.empty is True:
                 # read from data.json
@@ -94,15 +92,13 @@ def get_data():
                                 # df.loc[i, 'longitude'] = geocoder.google(df.user_location[i]).lng
                                 # df.loc[i, 'latitude'] = Geocoder.geocode(df.user_location[i]).lat
                                 # df.loc[i, 'longitude'] = Geocoder.geocode(df.user_location[i]).lng
-                                #
                                 print(i)
                             except:
                                 print("faster...")
                 print ("Finished decoding latlng !")
                 # else:
-                # df = df.read_csv('./input/save_gary1.csv')
-                # set 30000
-                # df = df[df['lat_state'] != 0].sample(n=100)
+                # set 100
+                # df = df[df['longitude'] != 0].sample(n=100)
                 df = df[df['longitude'] != 0]
                 df['phone_brand_en'] = df['user_followers'].apply(
                     lambda user_followers: get_follower_segment(user_followers))
@@ -122,7 +118,6 @@ def get_data():
                 df_clean['timestamp'] = df_clean['timestamp'].astype(str)
                 tt = df_clean.to_json( orient='records', date_format='iso', date_unit = 's')
                 return tt
-
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5002, debug=True)
