@@ -6,7 +6,6 @@ from sqlalchemy.exc import ProgrammingError
 import json
 
 import private
-import settings
 from sqlalchemy import create_engine
 import pandas as pd
 def create_db():
