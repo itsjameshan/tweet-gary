@@ -56,25 +56,21 @@ If you get en erro on `OSError: Could not find or load any library geos_c icts o
   * password = "your_own_password"
   * DB_NAME = "your_db_name"
  
-* Edit one line of code in `app.py`. Replace your_own_username, your_own_password, and your_db_name with your own.
-```python
-engine = create_engine('postgresql://your_own_username:your_own_password@localhost:5432/your_db_name')
-```
 * If you want to change the search key words, replace the keywords in the first line of `setting.py`.
-* Run `scraper.py`. It will create a table named gary in the new database.
+* Run `scraper.py`. It will create a table named gary under the new database. And search #garyvee related tweets and store them in the databse. 
 
 
 #### Pandas dashboard
 
 
-Run the `app.py` script from the repository root folder. Copy and paste `http://0.0.0.0:5002/` to your browser. The browser will show the map and charts in **7 seconds** after loading data from the postgresql, and show 
+Run the `app.py` script from the repository root folder. Copy and paste `http://0.0.0.0:5002/` to your browser. The browser will show the map and charts in ** about 7 seconds** after loading data from the database, and show 
 * **Number of tweets** in a period of time, 
 * The users **followers numbers**, 
 * **Tweets content** when used garyvee hashtag, 
 * which **states** the tweets came from if the user's location is set on, and
-* User **nearby location** on an map if the user's location is set on. 
+* User **nearby location** on an map if the user's location is set "on". 
 
-The number of tweeets will show once tweets collected from different hours. The `app.py` script will load less than 10 tweets if any tweets has been collected at the monent of runing the script. Otherwise, the script will load an example file data.json to show gary related tweets collected previously. 
+The number of tweeets in timestamp charts will show once tweets collected from more than one hour. The `app.py` script will load less than 10 tweets if any tweets has been collected at the monent of starting the script. Otherwise, the script will load an example file data.json to show gary related tweets collected previously. If the graph and chart does't show, done't forget clear cache of your browser. 
 
 ## Reference
 This project is inspiared by:
