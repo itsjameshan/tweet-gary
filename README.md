@@ -64,6 +64,7 @@ Run the `app.py` script from the repository root folder. Copy-paste `http://0.0.
 * which **states** the tweets came from if the user's location is set on, and
 * User **nearby location** on an map if the user's location is set on. 
 
+The number of tweeets will show once tweets collected from different hours.
 
 ## Reference
 This project is inspiared by:
