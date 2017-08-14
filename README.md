@@ -57,7 +57,7 @@ If you get en erro on `OSError: Could not find or load any library geos_c icts o
   * `DB_NAME = "your_db_name"`
  
 * If you want to change the search key words, replace the keywords in the first line of `setting.py`.
-* Run `scraper.py`. It will create a table named gary under the new database. And search #garyvee related tweets and store them in the databse. 
+* Run `scraper.py`. It will create a table named gary under the new database. And search #garyvee related tweets and store them in the databse. Use `Ctrl + C` to stop.
 
 
 #### Pandas dashboard
