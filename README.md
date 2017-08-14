@@ -53,9 +53,9 @@ If you get en erro on `OSError: Could not find or load any library geos_c icts o
 * Fill in the three variable below by your own in `private.py`.
   
 ```python
-user_name = ""
-password = ""
-DB_NAME = ""
+  * user_name = ""
+  * password = ""
+  * DB_NAME = ""
 ```
 
 * Replace `your_own_username`,`your_own_password`,`your_db_name` with your newly created database user name, password, database name, respectively. 
