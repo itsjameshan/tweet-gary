@@ -5,6 +5,27 @@ from textblob import TextBlob
 from sqlalchemy.exc import ProgrammingError
 import json
 
+import private
+import settings
+from sqlalchemy import create_engine
+import pandas as pd
+def create_db():
+    import psycopg2.extensions
+    con = psycopg2.connect(dbname='postgres',
+                       user=private.user_name, host='localhost',
+                       password=private.password)
+    con.set_isolation_level(psycopg2.extensions.ISOLATION_LEVEL_AUTOCOMMIT)  # <-- ADD THIS LINE
+    cur = con.cursor()
+    cur.execute("CREATE DATABASE %s  ;" % private.DB_NAME)
+    return "Database created!"
+
+#engine = create_engine('postgresql://postgres:Y581014p@@localhost:5432/postgres')
+engine = create_engine('postgresql://postgres' + ':' + private.password + '@localhost:5432/postgres')
+dbname = private.DB_NAME
+df = pd.read_sql_query("select * from pg_database where datname='" + dbname + "'", con=engine)
+if df.empty is True:
+    create_db()
+
 db = dataset.connect(settings.CONNECTION_STRING)
 
 class StreamListener(tweepy.StreamListener):
