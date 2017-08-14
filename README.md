@@ -16,12 +16,20 @@ First, cd to a path in terminal where you want to put the repository. Then
 ```python
 git clone https://github.com/itsjameshan/tweet-gary.git
 ```
-or download this repository to your local.
+or download this repository to your local folder.
 
 ### Installation
 Install the requirements.txt file first.This file included the packge for runing the app. I suggested to use python 2.7. If you use > python 3.x, the Shapely package may not compatible. 
 
 #### Python
+cd into the folder you cloned or downloaded and create an virtual enviroment
+```python
+virtualenv py27
+```
+Activate the enviroment
+```python
+source py27/bin/activate
+```
 Install `pandas`, `tweepy`, `Shapely` and other python packages.
 ```python
 pip install -r requirements.txt
