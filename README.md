@@ -44,10 +44,10 @@ If you get en erro on `OSError: Could not find or load any library geos_c icts o
 * Generate API keys and tokens. The keys can be found under *Keys and Access token* tab of your [twitter app](https://apps.twitter.com/) page. You need to go to the bottom of that tab and click *create my access token* to get the token:
 * Copy and paste the keys and tokens into `private.py`
 
-  * `Consumer_Key`
-  * `Consumer_Secret`
-  * `Access_Token`
-  * `Access_Token_Secret`
+  * `Consumer_Key = ""`
+  * `Consumer_Secret = ""`
+  * `Access_Token = ""`
+  * `Access_Token_Secret = ""`
 
 * Install [postgresql](https://www.postgresql.org/download/) in your computer. Create a user (your_own_username) or use default postgresql db user name. Create an password (your_own_password)(suggest to use the Mac password if you run on a Mac). And create a new database(your_db_name). You can download a [pgAdmin](https://www.pgadmin.org/download/) to make operation easier.
 * Copy and paste the line below into `private.py`.
