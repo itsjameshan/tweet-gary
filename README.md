@@ -22,8 +22,9 @@ or download this repository to your local folder.
 Install the requirements.txt file first.This file included the packge for runing the app. I suggested to use python 2.7. If you use > python 3.x, the Shapely package may not compatible. 
 
 #### Python
-cd into the folder you cloned or downloaded and create an virtual enviroment
+cd into the folder you cloned or downloaded and create an virtual enviroment by
 ```python
+pip install virtualenv
 virtualenv py27
 ```
 Activate the enviroment
