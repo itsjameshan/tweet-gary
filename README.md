@@ -41,7 +41,8 @@ If you get en erro on `OSError: Could not find or load any library geos_c icts o
 * Create a file named private.py for store your twitter app keys later.
 * Register a [twitter developer account](https://dev.twitter.com/)
 * Create an [twitter app](https://apps.twitter.com/) in the twitter developer account page after login by using your twitter account.
-* Set the following keys in `private.py`. The keys can be found under *Keys and Access token tab* of your [twitter app](https://apps.twitter.com/) page:
+* Generate API keys and tokens. The keys can be found under *Keys and Access token* tab of your [twitter app](https://apps.twitter.com/) page. You need to go to the bottom of that tab and click *create my access token* to get the token:
+* Copy and paste the keys and tokens into `private.py`
 
   * `Consumer_Key`
   * `Consumer_Secret`
@@ -49,7 +50,7 @@ If you get en erro on `OSError: Could not find or load any library geos_c icts o
   * `Access_Token_Secret`
 
 * Install [postgresql](https://www.postgresql.org/download/) in your computer. Create a user (your_own_username) or use default postgresql db user name. Create an password (your_own_password)(suggest to use the Mac password if you run on a Mac). And create a new database(your_db_name). You can download a [pgAdmin](https://www.pgadmin.org/download/) to make operation easier.
-* Copy-paste the line below into `private.py`.
+* Copy and paste the line below into `private.py`.
   
 ```python
 CONNECTION_STRING = "postgresql://your_own_username:your_own_password@localhost:5432/your_db_name" 
@@ -67,7 +68,7 @@ engine = create_engine('postgresql://your_own_username:your_own_password@localho
 #### Pandas dashboard
 
 
-Run the `app.py` script from the repository root folder. Copy-paste `http://0.0.0.0:5002/` to your browser. The browser will show the map and charts in **7 seconds** after loading data from the postgresql, and show 
+Run the `app.py` script from the repository root folder. Copy and paste `http://0.0.0.0:5002/` to your browser. The browser will show the map and charts in **7 seconds** after loading data from the postgresql, and show 
 * **Number of tweets** in a period of time, 
 * The users **followers numbers**, 
 * **Tweets content** when used garyvee hashtag, 
