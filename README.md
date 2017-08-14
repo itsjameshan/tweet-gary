@@ -53,7 +53,8 @@ engine = create_engine('postgresql://your_own_username:your_own_password@localho
 * If you want to change the search key words, replace the keywords in the first line of `setting.py`.
 * Run `scraper.py`. It will create a table named gary in the new database.
 
-#### Pandas interactive dashboard
+
+#### Pandas dashboard
 
 
 Run the `app.py` script from the repository root folder. Copy-paste `http://0.0.0.0:5002/` to your browser. The browser will show the map and charts in **7 seconds** after loading data from the postgresql, and show 
