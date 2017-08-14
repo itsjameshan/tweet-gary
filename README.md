@@ -63,7 +63,7 @@ If you get en erro on `OSError: Could not find or load any library geos_c icts o
 #### Pandas dashboard
 
 
-Run the `app.py` script from the repository root folder. Copy and paste `http://0.0.0.0:5002/` to your browser. The browser will show the map and charts in **about 7 seconds** after loading data from the database, and show 
+Run the `app.py` script from the repository root folder. Copy and paste **`http://0.0.0.0:5002/`** to your browser. The browser will show the map and charts in **about 7 seconds** after loading data from the database, and show 
 * **Number of tweets** in a period of time, 
 * The users **followers numbers**, 
 * **Tweets content** when used garyvee hashtag, 
