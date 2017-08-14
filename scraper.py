@@ -18,7 +18,6 @@ def create_db():
     cur.execute("CREATE DATABASE %s  ;" % private.DB_NAME)
     return "Database created!"
 
-#engine = create_engine('postgresql://postgres:Y581014p@@localhost:5432/postgres')
 engine = create_engine('postgresql://postgres' + ':' + private.password + '@localhost:5432/postgres')
 dbname = private.DB_NAME
 df = pd.read_sql_query("select * from pg_database where datname='" + dbname + "'", con=engine)
