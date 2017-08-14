@@ -27,7 +27,7 @@ cd into the folder you cloned or downloaded and create an virtual enviroment by
 pip install virtualenv
 virtualenv py27
 ```
-Activate the enviroment
+Activate the enviroment in the folder
 ```python
 source py27/bin/activate
 ```
