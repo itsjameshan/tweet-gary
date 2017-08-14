@@ -52,9 +52,9 @@ If you get en erro on `OSError: Could not find or load any library geos_c icts o
 * Install [postgresql](https://www.postgresql.org/download/) on your computer. Create a user (your_own_username) or use default postgresql db user name. Create an password (your_own_password)(suggest to use the Mac password if you run on a Mac). And create a new database(your_db_name). You can download a [pgAdmin](https://www.pgadmin.org/download/) to make the operation easier.
 * Replace `your_own_username`,`your_own_password`,`your_db_name` with your own respectively in `private.py`.
   
-  * user_name = "your_own_username"
-  * password = "your_own_password"
-  * DB_NAME = "your_db_name"
+  * `user_name = "your_own_username"`
+  * `password = "your_own_password"`
+  * `DB_NAME = "your_db_name"`
  
 * If you want to change the search key words, replace the keywords in the first line of `setting.py`.
 * Run `scraper.py`. It will create a table named gary under the new database. And search #garyvee related tweets and store them in the databse. 
