@@ -64,7 +64,7 @@ Run the `app.py` script from the repository root folder. Copy-paste `http://0.0.
 * which **states** the tweets came from if the user's location is set on, and
 * User **nearby location** on an map if the user's location is set on. 
 
-The number of tweeets will show once tweets collected from different hours. The `app.py` script will load less than 10 tweets if any tweets has been collected at the monent of runing the script. Otherwise, the script will load an example json file to show gary related tweets collected previously. 
+The number of tweeets will show once tweets collected from different hours. The `app.py` script will load less than 10 tweets if any tweets has been collected at the monent of runing the script. Otherwise, the script will load an example file data.json to show gary related tweets collected previously. 
 
 ## Reference
 This project is inspiared by:
