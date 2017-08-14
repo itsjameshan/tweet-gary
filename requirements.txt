@@ -14,4 +14,3 @@ folium
 pygeocoder
 geopy
 geocoder
-virtualenv
