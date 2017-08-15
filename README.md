@@ -10,16 +10,13 @@ This repository shows you how to use tweepy to scrape gary related tweets or has
 * `d3.js`,`dc.js` and `crossfilter.js` to buid the charts and 
 * `Leaflet.js` for building the map
 
-## Get Started
+## Step 1. Installation
 
 First, cd to a path in terminal where you want to put the repository. Then
 ```python
 git clone https://github.com/itsjameshan/tweet-gary.git
 ```
 or download this repository to your local folder.
-
-### Installation
-Install the requirements.txt file first.This file included the packge for runing the app. I suggested to use python 2.7. If you use > python 3.x, the Shapely package may not compatible. 
 
 #### Python
 cd into the folder you cloned or downloaded and create an virtual enviroment by
@@ -31,11 +28,13 @@ Activate the enviroment in the folder
 ```python
 source py27/bin/activate
 ```
-Install `pandas`, `tweepy`, `Shapely` and other python packages.
+Install `pandas`, `tweepy`, `Shapely` and other python packages. This file included the packge for runing the app. I suggested to use python 2.7. If you use > python 3.x, the Shapely package may not compatible.
 ```python
 pip install -r requirements.txt
 ```
 If you get en erro on `OSError: Could not find or load any library geos_c icts of variants ['libgeos_c.so.1', 'libgeos_c.so']`, use `pip uninstall Shapely` to unstall Shapely, and then use `conda install Shapely` to install Shapely. But You need to install [conda](https://conda.io/docs/install/quick.html) first.
+
+## Step 2. Modify one script
 
 #### Twitter API
 * Create a file named private.py for store your twitter app keys later.
@@ -57,20 +56,19 @@ If you get en erro on `OSError: Could not find or load any library geos_c icts o
   * `DB_NAME = "your_db_name"`
  
 * If you want to change the search key words, replace the keywords in the first line of `setting.py`.
-* Run `scraper.py`. It will create a table named gary under the new database. And search #garyvee related tweets and store them in the databse. Use `Ctrl + C` to stop.
 
-
+## Step 3. Run the script
 #### Pandas dashboard
 
-
-Run the `app.py` script from the repository root folder. Copy and paste **`http://0.0.0.0:5002/`** to your browser. The browser will show the map and charts in **about 7 seconds** after loading data from the database, and show 
+* Run `scraper.py`. It will scrape gary related tweets in real-time. It creates a table named gary under the new database. And search tweets which have `#garyvee`, `Gary vee`, `GaryVee`, `Gary Vaynerchuk`, `vaynermedia` and store them in the databse. Use `Ctrl + C` to stop the script.
+* Run `app.py` from the repository root folder. Copy and paste **`http://0.0.0.0:5002/`** to your browser. The browser will show the map and charts in **about 7 seconds** after loading data from the database, and show 
 * **Number of tweets** in a period of time, 
 * The users **followers numbers**, 
 * **Tweets content** when used garyvee hashtag, 
 * which **states** the tweets came from if the user's location is set on, and
 * User **nearby location** on an map if the user's location is set "on". 
 
-The number of tweeets in timestamp charts will show once tweets collected from more than one hour. The `app.py` script will load less than 10 tweets if any tweets has been collected at the monent of starting the script. Otherwise, the script will load an example file data.json to show gary related tweets collected previously. If you tereminate `app.py` by `Ctrl + C` and re-run `app.py`, done't forget clear the cache of your browser before re-run. 
+The number of tweeets in timestamp charts will show once tweets collected from more than one hour. The `app.py` script will load less than 10 tweets if any tweets has been collected at the monent of starting the script. Otherwise, the script will load an example file data.json to show gary related tweets collected previously. **If you tereminate `app.py` by `Ctrl + C` and re-run `app.py`, done't forget clear the cache of your browser before re-run**. 
 
 ## Reference
 This project is inspired by:
