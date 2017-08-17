@@ -60,7 +60,9 @@ If you get en erro on `OSError: Could not find or load any library geos_c icts o
 ## Step 3. Run the script
 #### Pandas dashboard
 
-* Run `scraper.py`. It will scrape gary related tweets in real-time. It creates a table named gary under the new database. And search tweets which have `#garyvee`, `Gary vee`, `GaryVee`, `Gary Vaynerchuk`, `vaynermedia` and store them in the databse. Use `Ctrl + C` to stop the script.
+##### Realtime data
+* Run `scraper.py` first. It will scrape gary related tweets in real-time. It creates a table named gary under the new database. And search tweets which have `#garyvee`, `Gary vee`, `GaryVee`, `Gary Vaynerchuk`, `vaynermedia` and store them in the databse. Use `Ctrl + C` to stop the script.
+##### Demo data 
 * Run `app.py` from the repository root folder. Copy and paste **`http://0.0.0.0:5002/`** to your browser. The browser will show the map and charts in **about 7 seconds** after loading data from the database, and show 
 * **Number of tweets** in a period of time, 
 * The users **followers numbers**, 
