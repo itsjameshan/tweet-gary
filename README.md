@@ -1,4 +1,4 @@
-# Twitter search API + pandas interactive dashboard for GaryVee related tweets
+# GaryVee related tweets in Twitter search API + pandas interactive dashboard
 
 ![alt text](./demo3.gif)
 As one of the most influence social media icon, Gary Vaynerchuk has influenced hundreds thousnds of people, entrepreneurs, and bussinesses across United State by spreading the messages of hustle, care, positivity, Jets. I happended to be one of them. His work ethic moitivates hourdreds and thousands entrepreneurs to work hard on their business and make an impact on others. 
