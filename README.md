@@ -80,8 +80,8 @@ https://github.com/dataquestio/twitter-scrape
 
 https://github.com/adilmoujahid/kaggle-talkingdata-visualization/blob/master/README.md
 
-**YouTube video explain why I collected GaryVee Tweets**
+//**YouTube video explain why I collected GaryVee Tweets**
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=Wlyqd4EMWY8
-" target="_blank"><img src="https://img.youtube.com/vi/Wlyqd4EMWY8/0.jpg"
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+//<a href="http://www.youtube.com/watch?feature=player_embedded&v=Wlyqd4EMWY8
+//" target="_blank"><img src="https://img.youtube.com/vi/Wlyqd4EMWY8/0.jpg"
+//alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
